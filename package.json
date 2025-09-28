@@ -1,7 +1,11 @@
 {
   "name": "atom-builder-full",
   "version": "1.0.0",
+<<<<<<< HEAD
   "type": "module",
+=======
+  "private": true,
+>>>>>>> 727212f0e41d07239440c089797281762dea0630
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,10 +13,22 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+<<<<<<< HEAD
     "three": "^0.164.0"
   },
   "devDependencies": {
     "vite": "^4.4.9",
+=======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "@supabase/supabase-js": "^2.28.1",
+    "three": "^0.162.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7",
+    "@vitejs/plugin-react": "^4.0.0",
+>>>>>>> 727212f0e41d07239440c089797281762dea0630
     "gh-pages": "^5.0.0"
   }
 }
